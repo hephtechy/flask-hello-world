@@ -20,8 +20,8 @@ def get_info():
     track = request.args.get('track')
     current_day = datetime.datetime.now().strftime('%A')
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    github_file_url = "https://github.com/hephtechy/flask-hello-world/blob/master/app.py"
+    github_repo_url = "https://github.com/hephtechy/flask-hello-world"
     status_code = 200
 
     response_data = {
